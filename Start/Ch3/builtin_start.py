@@ -6,15 +6,20 @@ mystring = "The quick, brown fox jumped over the lazy dog!"
 mynumbers = [1,3,5,6,9,12,14,17,20,30]
 
 # the len() function calculates the length of a sequence
+print(len(mystring))
+print(len(mynumbers))
 
 
 # the max() and min() functions will find the largest and smallest value in a sequence
-
+print(max(mynumbers))
+print(max(mystring))
+print(min(mynumbers))
+print(min(mystring))
 
 # the str() function will return a string version of an object
 prefix = "result: "
 result = 5
-
+print(prefix + str(result))
 
 # range(start, stop, step) will create a range of numbers 
 # You can use ranges along with loops 

@@ -34,11 +34,21 @@
 # hello_func()
 # hello_func(name="Sarita", greeting="What's up")
 
-# function with variable number of parameters
-def multi_add(start, *args):
-  result = start
-  for x in args:
-    result = result + x
-  return result
+# # function with variable number of parameters
+# def multi_add(start, *args):
+#   result = start
+#   for x in args:
+#     result = result + x
+#   return result
 
-print(multi_add(10, 4, 5, 10, 4, 10))
+# print(multi_add(10, 4, 5, 10, 4, 10))
+
+import re
+def remove_non_alphanumeric_re(text):
+    return re.sub(r'[^a-zA-Z0-9]', '', text)
+
+
+
+test_word = "Madam, I'm Adam."
+print(remove_non_alphanumeric_re(str.casefold(test_word)))
+print(remove_non_alphanumeric_re(str.casefold(test_word[::-1])))

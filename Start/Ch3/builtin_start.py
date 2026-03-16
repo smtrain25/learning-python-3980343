@@ -23,8 +23,13 @@ print(prefix + str(result))
 
 # range(start, stop, step) will create a range of numbers 
 # You can use ranges along with loops 
+for i in range(5,15):
+  print(i)
 
+for i in range(5,len(mystring), 2):
+  print(mystring[i])
 
 # the print function itself is pretty flexible - you can embed variables directly in it
 greeting = "Hello!"
 count = 10
+print(f"{greeting} You are visitor number {count}.")

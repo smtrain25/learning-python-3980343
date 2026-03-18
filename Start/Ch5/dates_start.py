@@ -6,6 +6,7 @@
 
 from datetime import date
 from datetime import datetime
+import calendar
 
 ## DATE OBJECTS
 # Get today's date from the simple today() method from the date class
@@ -13,7 +14,7 @@ today = date.today()
 print("Today's date is", today)
 
 # print out the date's individual components
-print("Date Components:", today.month, "/", today.day, "/", today.year)
+# print(f"Date Components: {today.month}/{today.day}/{today.year}")
 
 # retrieve today's weekday (0=Monday, 6=Sunday)
 print("Today's weekday #:", today.weekday())
@@ -21,10 +22,11 @@ days= ["mon","tue","wed","thu","fri","sat","sun"]
 print("Which is a", days[today.weekday()],".")
 
 ## DATETIME OBJECTS
-# Get today's date from the datetime class
+# # Get today's date from the datetime class
 today = datetime.now()
 print("The current date and time is", today)
 
 # Get the current time
 t = datetime.time(datetime.now())
 print("The current time is", t)
+days= ["MONDAY","TUESDAY","WEDNESDAY","THURSDAY","FRIDAY","SATURDAY","SUNDAY"]

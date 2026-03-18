@@ -19,5 +19,12 @@
     "terminal.integrated.fontSize": 18,
     "workbench.colorTheme": "Visual Studio Light",
     "workbench.fontAliasing": "antialiased",
-    "workbench.statusBar.visible": true
+    "workbench.statusBar.visible": true,
+    "python-envs.pythonProjects": [
+        {
+            "path": "Start/Ch5",
+            "envManager": "ms-python.python:venv",
+            "packageManager": "ms-python.python:pip"
+        }
+    ]
 }

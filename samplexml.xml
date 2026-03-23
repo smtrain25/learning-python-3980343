@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <person>
-  <firstname>Joe</firstname>
-  <lastname>Marini</lastname>
-  <home>New York</home>
+  <firstname>Sarita</firstname>
+  <lastname>Menard</lastname>
+  <home>Miami</home>
   <skill name="JavaScript"/>
   <skill name="Python"/>
   <skill name="C#"/>
